@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D34F60782DEE49BF008DC854 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = D34F60772DEE49BF008DC854 /* Presentation */; };
+		D34F607B2DEE4A75008DC854 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = D34F607A2DEE4A75008DC854 /* Data */; };
+		D34F607E2DEE4A95008DC854 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = D34F607D2DEE4A95008DC854 /* Domain */; };
+		D34F60812DEE4AF7008DC854 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = D34F60802DEE4AF7008DC854 /* DesignSystem */; };
+		D34F60842DEE4B51008DC854 /* Infrastructure in Frameworks */ = {isa = PBXBuildFile; productRef = D34F60832DEE4B51008DC854 /* Infrastructure */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D3AFA7832DE0BC4A0075ABDF /* CleanModularArchitectureTreeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanModularArchitectureTreeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +31,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34F60842DEE4B51008DC854 /* Infrastructure in Frameworks */,
+				D34F607E2DEE4A95008DC854 /* Domain in Frameworks */,
+				D34F607B2DEE4A75008DC854 /* Data in Frameworks */,
+				D34F60782DEE49BF008DC854 /* Presentation in Frameworks */,
+				D34F60812DEE4AF7008DC854 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,11 @@
 			);
 			name = CleanModularArchitectureTreeList;
 			packageProductDependencies = (
+				D34F60772DEE49BF008DC854 /* Presentation */,
+				D34F607A2DEE4A75008DC854 /* Data */,
+				D34F607D2DEE4A95008DC854 /* Domain */,
+				D34F60802DEE4AF7008DC854 /* DesignSystem */,
+				D34F60832DEE4B51008DC854 /* Infrastructure */,
 			);
 			productName = CleanModularArchitectureTreeList;
 			productReference = D3AFA7832DE0BC4A0075ABDF /* CleanModularArchitectureTreeList.app */;
@@ -94,6 +112,13 @@
 			);
 			mainGroup = D3AFA77A2DE0BC4A0075ABDF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D34F60762DEE49BF008DC854 /* XCLocalSwiftPackageReference "Presentation" */,
+				D34F60792DEE4A75008DC854 /* XCLocalSwiftPackageReference "Data" */,
+				D34F607C2DEE4A95008DC854 /* XCLocalSwiftPackageReference "Domain" */,
+				D34F607F2DEE4AF7008DC854 /* XCLocalSwiftPackageReference "DesignSystem" */,
+				D34F60822DEE4B51008DC854 /* XCLocalSwiftPackageReference "Infrastructure" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D3AFA7842DE0BC4A0075ABDF /* Products */;
 			projectDirPath = "";
@@ -335,6 +360,52 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D34F60762DEE49BF008DC854 /* XCLocalSwiftPackageReference "Presentation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Presentation;
+		};
+		D34F60792DEE4A75008DC854 /* XCLocalSwiftPackageReference "Data" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Data;
+		};
+		D34F607C2DEE4A95008DC854 /* XCLocalSwiftPackageReference "Domain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Domain;
+		};
+		D34F607F2DEE4AF7008DC854 /* XCLocalSwiftPackageReference "DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DesignSystem;
+		};
+		D34F60822DEE4B51008DC854 /* XCLocalSwiftPackageReference "Infrastructure" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Infrastructure;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D34F60772DEE49BF008DC854 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+		D34F607A2DEE4A75008DC854 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		D34F607D2DEE4A95008DC854 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		D34F60802DEE4AF7008DC854 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		D34F60832DEE4B51008DC854 /* Infrastructure */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Infrastructure;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3AFA77B2DE0BC4A0075ABDF /* Project object */;
 }
